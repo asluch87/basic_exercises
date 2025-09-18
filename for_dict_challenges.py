@@ -184,6 +184,7 @@ is_male = {
 }
 
 
+
 # Создаем словари для подсчета
 boys_by_class = {}
 girls_by_class = {}
