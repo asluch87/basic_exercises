@@ -3,8 +3,8 @@
 
 names = ['Оля', 'Петя', 'Вася', 'Маша']
 
-for name in names:
-    print(name)
+for i in names:
+    print (i)
 
 # Задание 2
 # Необходимо вывести имена всех учеников из списка, рядом с именем показать количество букв в нём
@@ -14,10 +14,8 @@ for name in names:
 
 names = ['Оля', 'Петя', 'Вася', 'Маша']
 
-for name in names:
-
-    print(f"{name}: {len(name)}")
-          
+for i  in names:
+    print (i,len(i) )
 
 
 # Задание 3
@@ -31,8 +29,8 @@ is_male = {
 }
 names = ['Оля', 'Петя', 'Вася', 'Маша']
 
-for name in names:
-    print(name, is_male.get(i))
+for i in names:
+    print(i, is_male.get(i))
 
 
 # Задание 4
@@ -54,6 +52,7 @@ print(f"Группа 2 {len(groups[1])} Участников" )
 print(f"Группа 3 {len(groups[2])} Участников" )
 
 
+
 # Задание 5
 # Для каждой пары учеников нужно с новой строки перечислить учеников, которые в неё входят
 # Пример вывода:
@@ -73,5 +72,5 @@ groups = [
     ['Вася', 'Маша', 'Саша', 'Женя'],
 ]
 
-for name , group in enumerate(groups, start=1):
-    print(f"Группа {name}: {', '.join(group)}")
+for i, group in enumerate(groups, start=1):
+    print(f"Группа {i}: {', '.join(group)}")
