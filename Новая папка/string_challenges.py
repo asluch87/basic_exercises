@@ -4,16 +4,15 @@ word = 'Архангельск'
 print(word[10:11])
 
 
+
 # Вывести количество букв "а" в слове
 word = 'Архангельск'
 print(word.count("а"))
-print(word[-1])
 
 
 # Вывести количество гласных букв в слове
 word = 'Архангельск'
-word = word.lower()
-vowels = 'аеёиоуыэюя'
+vowels = 'аеёиоуыэюяАЕЁИОУЫЭЮЯ'
 vowel_count = sum(1 for char in word if char in vowels)
 print(f"Количество гласных в слове '{word}': {vowel_count}")
 

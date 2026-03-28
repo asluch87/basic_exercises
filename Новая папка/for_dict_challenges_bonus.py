@@ -29,15 +29,12 @@ messages = [
 5. Вывести идентификаторы сообщений, который стали началом для самых длинных тредов (цепочек ответов).
 
 Весь код стоит разбить на логические части с помощью функций.
-""" 
+"""
 import random
 import uuid
 import datetime
 
 import lorem
-
-
-
 
 
 def generate_chat_history():
